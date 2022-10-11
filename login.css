@@ -75,4 +75,49 @@ li{
    input[type=submit]:hover{
     background-color: red;
    }
+
+   input[type=previous]{
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    float: right;
+   }
+   input[type=previous]:hover{
+    background-color: red;
+   }
+.container{
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    align-items: center;
+    display: flexbox;
+    justify-content: center;
+    width: 250px;
+    margin: auto;
+   }
+   .col-25 {
+    float: center;
+    width: 100%;
+    margin-top: 6px;
+   }
+   .col-75{
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+   }
+   .row:after{
+    content: "";
+    display: table;
+    clear: both;
+   }
   
+   @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    
+}

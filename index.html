@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="next" href="contact_us.html">
+    <link rel="next" href="sign_in.html">
+    <link rel="next" href="login.html">
+
     <title>Web Exercise</title>
   </head>
   <body>
@@ -12,53 +16,14 @@
       <div class="showcase-top">
         <div class="topnav">
             <img src="./img_img.png" alt="logo" width="100" height="40">
-          <a href="#">Contact us</a>
-          <a href="#">Login</a>
-          <a href="#">Sign in</a>
+          <a href="contact_us.html" class="next"&raquo >Contact us</a>
+          <a href="login.html" class="next"&raquo>Login</a>
+          <a href="sign_in.html" class="next"&raquo>Sign in</a>
         </div>
       </div>
     
     </header>
-    <div class="container">
-        <form action="/action_page.php">
-        <div class="row">
-          <div class="col-25">
-            <label for="fname">First Name</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="lname">Last Name</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          </div>
-          <div class="col-25">
-            <label for="email">Email</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="email" name="email" placeholder="Email..">
-          </div>
-          <div class="col-25">
-            <label for="pwd">Create Password:</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="pwd" name="pwd" placeholder="Password..." minlength="8">
-          </div>
-        
-          </div>
-        <div class="row">
-            <div class="col-75">
-          <input type="submit" value="Submit">
-            </div>
-        </div>
-        </form>
-      </div>
-      <a href="http://127.0.0.1:5500/.vscode/disney.html#home" class="btn btn-xl">
-        Watch unlimited for 30 days.<i class="fas fa-chevron-right btn-icon"></i>
-      </a>
+    
+      
   </body>
 </html>
